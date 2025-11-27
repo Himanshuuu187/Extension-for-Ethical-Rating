@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Ethical Advisor</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { font-family: Arial, sans-serif; width: 320px; margin: 0; padding: 10px; }
+    h2 { margin: 0 0 10px 0; color: #333; }
+    input { width: 100%; padding: 6px; margin-bottom: 8px; border: 1px solid #ccc; border-radius: 6px; }
+    button { background: #0b74de; color: white; border: none; border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+    #result { font-size: 13px; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h2>Ethical Shopping Advisor</h2>
+  <p>Paste a product URL below (Amazon or Flipkart):</p>
+
+  <input id="urlInput" placeholder="e.g. https://www.amazon.in/dp/B0B4F52B1K" />
+  <button id="checkBtn">Analyze</button>
+
+  <div id="result"><em>Results will appear here.</em></div>
+
+  <div class="footer" style="margin-top:10px;font-size:11px;color:#555;">
+    Data: Local JSON. Future versions can use live API & ML scoring.
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

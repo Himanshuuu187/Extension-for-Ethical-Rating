@@ -1,0 +1,51 @@
+{
+  "manifest_version": 3,
+  "name": "Ethical Shopping Advisor – Smart Browser Assistant",
+  "short_name": "EthicalAdvisor",
+  "version": "1.0",
+  "description": "Shows ethical ratings for brands and extracts product details on e-commerce product pages.",
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+ "permissions": ["activeTab", "scripting", "storage", "tabs"],
+"host_permissions": [
+  "*://*.amazon.in/*",
+  "*://*.amazon.com/*",
+  "*://*.flipkart.com/*"
+],
+
+  "background": {
+    "service_worker": "service_worker.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+  "*://*.amazon.com/*",
+  "*://*.amazon.in/*",
+  "*://*.flipkart.com/*",
+  "*://*.ebay.com/*",
+  "*://*.myntra.com/*"
+],
+
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["icons/*", "ethical_data.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

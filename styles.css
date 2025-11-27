@@ -1,0 +1,131 @@
+/* styles.css - used by both popup and content scripts (content script loads this via manifest) */
+
+/* Floating card on product pages */
+#ethical-advisor-card.ethical-card {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  width: 320px;
+  z-index: 9999999;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  padding: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #111;
+  border: 1px solid rgba(0,0,0,0.06);
+}
+
+.ethical-card-title {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+  max-height: 40px;
+  overflow: hidden;
+}
+
+.ethical-card-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.ethical-grade {
+  color: #fff;
+  padding: 3px 8px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 12px;
+  margin-left: 6px;
+}
+
+/* small rating and price */
+.ethical-rating-block, .ethical-price {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+/* notes */
+.ethical-notes {
+  font-size: 12px;
+  color: #333;
+  margin-top: 6px;
+}
+.ethical-note-text {
+  margin-top: 4px;
+}
+
+/* buttons */
+.ethical-buttons {
+  margin-top: 10px;
+  display:flex;
+  gap:8px;
+  justify-content:flex-end;
+}
+.ethical-btn {
+  background:#0b74de;
+  color:#fff;
+  border:none;
+  padding:8px 10px;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:13px;
+}
+.ethical-btn:hover { opacity:0.95; }
+
+/* Popup styles (shared) */
+.popup {
+  width: 340px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 12px;
+}
+.popup h2 {
+  margin:4px 0 10px 0;
+  font-size: 18px;
+}
+.search-row {
+  display:flex;
+  gap:8px;
+  margin-bottom:10px;
+}
+.search-row input {
+  flex:1;
+  padding:8px;
+  border-radius:6px;
+  border:1px solid #d0d0d0;
+}
+.search-row button {
+  padding:8px 12px;
+  border-radius:6px;
+  border:none;
+  background:#0b74de;
+  color:#fff;
+  cursor:pointer;
+}
+.result {
+  min-height: 70px;
+  margin-bottom:8px;
+}
+.placeholder { color:#666; font-size:13px; }
+.brand-card { padding:8px; border:1px solid #eee; border-radius:6px; background:#fafafa; }
+.brand-name { font-weight:700; margin-bottom:6px; }
+.grade { color:#fff; padding:2px 6px; border-radius:6px; font-weight:700; margin-left:6px; }
+.footer { margin-top:10px; color:#666; font-size:11px; }
+
+/* Recent list */
+.recent-list { margin-top:6px; }
+.recent-item {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:6px 6px;
+  border-radius:6px;
+  border:1px solid #f1f1f1;
+  margin-bottom:6px;
+  cursor:pointer;
+}
+.recent-item:hover { background:#f9f9f9; }
+.small { font-size:11px; padding:2px 4px; }
+.loading { color:#333; font-size:13px; }
+.no-data { color:#444; }
+.error { color:red; }

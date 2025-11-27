@@ -1,0 +1,32 @@
+{
+  "nike": {
+    "grade": "C",
+    "categories": ["Labor Safety", "Sustainability"],
+    "notes": "Some improvements in factory audits; mixed record on transparency."
+  },
+  "adidas": {
+    "grade": "B",
+    "categories": ["Sustainability", "Eco Materials"],
+    "notes": "Good sustainability commitments; ongoing supply-chain auditing."
+  },
+  "apple": {
+    "grade": "B",
+    "categories": ["Worker Safety", "E-waste Programs"],
+    "notes": "Strong e-waste programs, supplier audits; concerns remain about some supplier practices."
+  },
+  "samsung": {
+    "grade": "C",
+    "categories": ["E-waste Programs"],
+    "notes": "Active recycling initiatives; room to improve supply chain transparency."
+  },
+  "localcraft": {
+    "grade": "A",
+    "categories": ["Fair Trade", "Eco-friendly Packaging"],
+    "notes": "Small certified makers, fair wages, biodegradable packaging."
+  },
+  "sony": {
+    "grade": "B",
+    "categories": ["E-waste Programs", "Supplier Audits"],
+    "notes": "Sustainability programs and supplier audits in place."
+  }
+}

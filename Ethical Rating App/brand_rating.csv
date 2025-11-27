@@ -1,0 +1,60 @@
+brand,ethical_score,category,source
+Patagonia,95,Fashion,Good On You
+Levi's,75,Fashion,Ethical Consumer
+H&M,45,Fashion,Ethical Consumer
+Zara,50,Fashion,Fashion Transparency Index
+Nike,40,Fashion,Good On You
+Adidas,60,Fashion,Good On You
+Puma,65,Fashion,Good On You
+Uniqlo,55,Fashion,Fashion Transparency Index
+Gucci,70,Fashion,Good On You
+Prada,60,Fashion,Fashion Transparency Index
+Apple,70,Electronics,Ethisphere
+samsung,65,Electronics,Ethisphere
+Sony,72,Electronics,Ethisphere
+Dell,68,Electronics,Ethisphere
+HP,75,Electronics,Ethisphere
+Lenovo,70,Electronics,Ethisphere
+Asus,60,Electronics,Ethisphere
+Microsoft,85,Technology,Ethisphere
+Google,80,Technology,Ethisphere
+Meta,50,Technology,CSRHub
+Amazon,55,Ecommerce,Ethical Consumer
+Flipkart,60,Ecommerce,India CSR Index
+Etsy,85,Ecommerce,Ethisphere
+Unilever,85,FMCG,B Corp
+Nestle,50,FMCG,Ethical Consumer
+P&G,65,FMCG,Ethical Consumer
+Coca-Cola,55,FMCG,Ethical Consumer
+PepsiCo,60,FMCG,Ethical Consumer
+Tata,90,Multiple,India CSR Index
+ITC,80,Multiple,India CSR Index
+Reliance,50,Multiple,India CSR Index
+Infosys,90,Technology,India CSR Index
+Wipro,88,Technology,India CSR Index
+HCL,80,Technology,India CSR Index
+Godrej,85,Multiple,India CSR Index
+Marico,78,Multiple,India CSR Index
+Dabur,82,FMCG,India CSR Index
+Colgate,70,FMCG,Ethisphere
+LG,68,Electronics,Ethisphere
+Panasonic,75,Electronics,Ethisphere
+Philips,80,Electronics,Ethisphere
+Tesla,65,Automobile,Ethisphere
+Toyota,85,Automobile,Ethisphere
+BMW,78,Automobile,Ethisphere
+Mercedes-Benz,76,Automobile,Ethisphere
+Hyundai,70,Automobile,Ethisphere
+Oppo,55,Electronics,Ethical Consumer
+Vivo,55,Electronics,Ethical Consumer
+OnePlus,60,Electronics,CSRHub
+Realme,55,Electronics,CSRHub
+Boat,65,Electronics,India CSR Index
+Noise,70,Electronics,India CSR Index
+Patanjali,75,FMCG,India CSR Index
+Forest Essentials,85,Fashion,Good On You
+FabIndia,88,Fashion,Good On You
+Nykaa,72,Beauty,India CSR Index
+Biotique,78,Beauty,India CSR Index
+Mamaearth,82,Beauty,B Corp
+Himalaya,80,Beauty,India CSR Index
