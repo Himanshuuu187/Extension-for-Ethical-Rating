@@ -5,6 +5,9 @@ from ui_settings import sidebar_settings
 from brand_analysis import analyze_brand
 from chatbot import ethical_chatbot
 from utils import leaderboard, brand_comparison, footer
+import nltk
+nltk.download('punkt', quiet=True)
+
 
 
 
